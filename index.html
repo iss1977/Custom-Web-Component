@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Web Component - Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Custom tooltip</h1>
+
+        <p>Lorem, ipsum dolor sit amet 
+            <popup-notify tip-background ="#ffcc00" tip-color="#fff">
+                <span slot="message">This message will be displayed in the tooltip</span>
+            </popup-notify>
+        consectetur adipisicing elit. Nostrum, perspiciatis?</p>
+    </div>
+    <script src="./tooltip.js"></script>
+</body>
+</html>
